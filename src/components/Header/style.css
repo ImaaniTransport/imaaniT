@@ -1,0 +1,158 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00aeea;
+    padding-left: 100px;
+    width: auto;
+    height: 60px;
+    
+}
+.imaniLogo{
+    height: 45px;
+    padding-top: 7px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;    
+}
+
+.navs a{
+    margin-top: 18px;
+}
+
+ul li{
+    float: left;
+    width: 100px;
+    text-align: center;   
+}
+
+.navs:hover{
+    background-color: rgb(0, 50, 116);
+    height: 60px;   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;    
+}
+
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    position: relative;
+    top: 22px;
+    display: block;
+    background-color: rgb(0, 50, 116);
+    width: 170px;
+    border-bottom: .5px solid grey;
+    text-align: justify;
+    padding: 5px;
+    height: 30px;
+    align-items: center; 
+}
+
+ul li ul li a{
+    position: relative;
+    top: -10px;
+}
+/* 
+.headerMenu{
+    margin: 10px 0;
+    display: inline-flex;
+    padding-top:8px;
+} */
+
+/* .headerMenu li{
+    text-decoration: none;
+    list-style: none;
+     display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.headerMenu li:hover{
+    background-color: khaki;
+    margin: 3px;
+}
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.headerMenu :nth-child(1){
+    width:25px;
+    height: 25px;   
+}
+
+.headerMenu a:hover{
+    color: wheat;
+} */
+
+.login{
+display: flex;
+margin-right: 80px;
+padding-top: 8px;
+   
+}
+.login a{
+    display: flex;
+    color: white;
+    padding-right:30px ;
+    margin:10px 0;
+    text-decoration: none;
+}
+.login :nth-child(2){
+    width:25px;
+    height: 25px;  
+    margin:10px 0;
+    padding-right:50px ;
+    
+}
+.searchicon {
+    width:25px;
+    height: 25px;  
+    margin:10px 0;
+    padding-right:70px ;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.searchInput{
+    border: 0;
+    width: 0;
+    transition: width 0.1 ease-in;
+}
+.searchInput:focus{
+    outline: none;
+}
+.searchInput.active{
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.form{
+    display: flex;
+    margin-left: 10px;
+}
+
+.linkDropdown{
+    display: none;
+    list-style: none;
+}

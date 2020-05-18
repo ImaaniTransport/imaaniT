@@ -1,0 +1,20 @@
+
+.card{
+    background-color:none;
+    padding: 10px;
+
+}
+.floatText{
+color: #092a40;
+text-align: center;
+font-size: 11px;
+font-weight: bold;
+}
+
+.logo{
+    height: 40px;
+    width: 43px;
+    background: none;
+    
+}
+

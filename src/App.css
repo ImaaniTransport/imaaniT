@@ -1,0 +1,11 @@
+
+body{
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+
+.App{
+  width: 100%;
+  margin: 0 auto;
+}
