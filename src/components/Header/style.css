@@ -1,67 +1,69 @@
-.header{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #00aeea;
-    padding-left: 100px;
-    width: auto;
-    height: 60px;
-    
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #00aeea;
+  padding-left: 100px;
+  width: auto;
+  height: 60px;
 }
-.imaniLogo{
-    height: 45px;
-    padding-top: 7px;
-}
-
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;    
+.imaniLogo {
+  height: 45px;
+  padding-top: 7px;
 }
 
-.navs a{
-    margin-top: 18px;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-ul li{
-    float: left;
-    width: 100px;
-    text-align: center;   
+.navs a {
+  margin-top: 18px;
 }
 
-.navs:hover{
-    background-color: rgb(0, 50, 116);
-    height: 60px;   
+ul li {
+  float: left;
+  width: 100px;
+  text-align: center;
 }
 
-ul li a{
-    text-decoration: none;
-    color: white;
-    display: block;    
+.navs:hover {
+  background-color: rgb(0, 50, 116);
+  height: 60px;
 }
 
-
-ul li ul li{
-    display: none;
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 
-ul li:hover ul li{
-    position: relative;
-    top: 22px;
-    display: block;
-    background-color: rgb(0, 50, 116);
-    width: 170px;
-    border-bottom: .5px solid grey;
-    text-align: justify;
-    padding: 5px;
-    height: 30px;
-    align-items: center; 
+ul li ul li {
+  display: none;
 }
 
-ul li ul li a{
-    position: relative;
-    top: -10px;
+ul li:hover ul li {
+  position: relative;
+  top: 22px;
+  display: block;
+  background-color: rgb(0, 50, 116);
+  width: 170px;
+  border-bottom: 0.5px solid grey;
+  text-align: justify;
+  padding: 5px;
+  height: 30px;
+  align-items: center;
 }
-/* 
+
+ul li ul li a {
+  position: relative;
+  top: -10px;
+}
+
+ul li ul li a:hover {
+  color: #00aeea;
+}
+/* 3
 .headerMenu{
     margin: 10px 0;
     display: inline-flex;
@@ -100,59 +102,108 @@ ul li ul li a{
     color: wheat;
 } */
 
-.login{
-display: flex;
-margin-right: 80px;
-padding-top: 8px;
-   
+.login {
+  display: flex;
+  margin-right: 80px;
 }
-.login a{
-    display: flex;
-    color: white;
-    padding-right:30px ;
-    margin:10px 0;
-    text-decoration: none;
+.login a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding-top: 17px;
 }
-.login :nth-child(2){
-    width:25px;
-    height: 25px;  
-    margin:10px 0;
-    padding-right:50px ;
-    
-}
-.searchicon {
-    width:25px;
-    height: 25px;  
-    margin:10px 0;
-    padding-right:70px ;
-    display: flex;
-    cursor: pointer;
-    
+/* .login :nth-child(2) {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 5px;
+  top: 8px;
+  cursor: pointer;
+} */
+
+.login img {
+  padding-top: 15px;
 }
 
-.searchInput{
-    border: 0;
-    width: 0;
-    transition: width 0.1 ease-in;
-}
-.searchInput:focus{
-    outline: none;
-}
-.searchInput.active{
-    width: 150px;
-    height: 30px;
-    margin-top: 5px;
-    border-radius: 35px;
-    background-color: transparent;
-    border: 1px solid white;
+.login li {
+  list-style: none;
+  width: 115px;
 }
 
-.form{
-    display: flex;
-    margin-left: 10px;
+.login li ul li {
+  display: none;
 }
 
-.linkDropdown{
-    display: none;
-    list-style: none;
+.login li:hover ul li {
+  position: relative;
+  top: 22px;
+  display: block;
+  background-color: rgb(0, 50, 116);
+  width: 190px;
+  /* border-bottom: 0.5px solid grey; */
+  text-align: justify;
+  padding: 5px;
+  height: 30px;
+  align-items: center;
 }
+
+.login li ul li a:hover {
+  color: #00aeea;
+}
+.loginNavs:hover {
+  background-color: rgb(0, 50, 116);
+  height: 60px;
+}
+
+.userInput {
+  width: 190px;
+  height: 27px;
+  border: none;
+  background-color: rgb(194, 194, 194);
+}
+
+::placeholder {
+  padding: 5px;
+  color: rgb(0, 50, 116);
+}
+
+li button {
+  height: 30px;
+  width: 130px;
+  margin-left: 30px;
+}
+/* .searchicon {
+  width: 25px;
+  height: 25px;
+  margin: 10px 0;
+  padding-right: 70px;
+  display: flex;
+  cursor: pointer;
+}
+
+.searchInput {
+  border: 0;
+  width: 0;
+  transition: width 0.1 ease-in;
+}
+.searchInput:focus {
+  outline: none;
+}
+.searchInput.active {
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 35px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.form {
+  display: flex;
+  margin-left: 10px;
+}
+
+.linkDropdown {
+  display: none;
+  list-style: none;
+} */

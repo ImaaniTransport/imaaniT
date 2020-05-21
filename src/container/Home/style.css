@@ -37,6 +37,11 @@
   padding: 10px 15px;
   display: inline-block;
   letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.safety1 a:hover {
+  color: yellowgreen;
 }
 
 .safety1 :nth-child(1) {
